@@ -39,6 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОбщийМодульКлиент</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
