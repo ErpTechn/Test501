@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9f82b5a-e1ec-4f76-9a51-bb0c1827877d">
+  <producedTypes>
+    <objectType typeId="e18dff18-5e49-430b-bb82-7935fb9caa4e" valueTypeId="59d450f7-8bda-4a5a-9d9f-f5f2b32f4dfe"/>
+    <managerType typeId="a8b251b2-5019-449f-9fdb-c6af4afe91b9" valueTypeId="ae7cf28b-c009-40f9-a3fd-b263961d3a5b"/>
+  </producedTypes>
+  <name>ОтгрузкиЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгрузки за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтгрузкиЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2b25818b-ac7a-4440-b733-ac07871203be">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

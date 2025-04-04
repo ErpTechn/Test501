@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efd428bc-1d37-49f2-91e3-ce4b7cbbdeb3">
+  <producedTypes>
+    <objectType typeId="e20b4c7c-27e7-4822-b812-93210c6fd1f1" valueTypeId="48aa4035-204e-443c-9fe3-2bbbde61f7b3"/>
+    <managerType typeId="1264908b-f965-4ed7-a2d7-cd3d00b24306" valueTypeId="64872435-dc2b-4f46-bc3c-1d9dcf119506"/>
+  </producedTypes>
+  <name>ТоварыБезОтгрузокСоединение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары без отгрузок (соединение)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТоварыБезОтгрузокСоединение.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b761f24b-5695-433c-9967-2c6d2cba7279">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

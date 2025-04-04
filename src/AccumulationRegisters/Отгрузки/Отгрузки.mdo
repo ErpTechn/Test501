@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11ede7ff-599f-403c-867f-1247454b3f78">
+  <producedTypes>
+    <selectionType typeId="68ee91f7-488d-4ef1-9bab-d83a6100d486" valueTypeId="9bbe7002-4da3-4080-b3d7-ac971c25d7bd"/>
+    <listType typeId="8fc64877-c1b9-4baa-a2de-e27af41101b6" valueTypeId="4a66e0e0-a188-47a9-bb8d-5611e7221c26"/>
+    <managerType typeId="b15d89c3-0ca6-4902-a049-0e84235a0d3a" valueTypeId="ecfb48ce-4b50-4d6f-b545-5af6a8f66d9f"/>
+    <recordSetType typeId="449b2f35-27ee-4481-87a5-306fc4ec0b27" valueTypeId="93c02833-2f09-4eaf-ba3f-b26ead4a8d2e"/>
+    <recordKeyType typeId="f202bff1-14da-4409-afe3-47a979db7cb0" valueTypeId="92d693a6-da1a-477c-a7d4-25341aa09d67"/>
+    <recordType typeId="a794a61f-0c2f-4542-bc8b-a53f27b87f42" valueTypeId="cd9a0a17-643d-4afb-b161-81e009b1d262"/>
+  </producedTypes>
+  <name>Отгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f05ac23c-648a-4495-b746-71b168902618">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e3d2a07c-9516-4f1c-a12c-fd12489d15c8">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

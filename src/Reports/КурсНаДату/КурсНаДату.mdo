@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4cff40d-7799-4add-b592-829fe460af66">
+  <producedTypes>
+    <objectType typeId="03247d52-01fd-4e63-b1f5-19cde4c5d780" valueTypeId="cc169a1c-5604-4d75-bbb4-09b8b88503c1"/>
+    <managerType typeId="333b24d6-bce0-41d9-8505-386098cd97ea" valueTypeId="8598c554-501e-4e0b-bf0c-cafbc574a60c"/>
+  </producedTypes>
+  <name>КурсНаДату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс на дату</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КурсНаДату.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e52d6659-5b8d-4d16-b817-46dda73bc147">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

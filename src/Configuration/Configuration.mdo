@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e719b180-c945-4302-84ed-8ec33fa90bf9">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ad0c7b68-74fb-4f4d-8904-4b08f841193b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a30c24fe-4e18-4dcb-a547-38349e49caaa"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6ecbb719-c678-436f-8d80-64a567275b97"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4f9f64d5-de64-4580-b814-4fbade958d75"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="19444893-ba29-4a7d-abc7-32a659e24e8e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="12d96d9f-5ef3-4cf3-83e5-d01d96522155"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="18e5d3d5-0698-4bc6-87f1-98b169c8fcae"/>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Администратор</defaultRoles>
+  <vendor>Роман</vendor>
+  <version>1.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="eef79671-0e04-4d4f-a7c2-8a2425042462">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОМ_ТЕСТ</commonModules>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.Продажи</documents>
+  <reports>Report.ТоварыДляПеренумерации</reports>
+  <reports>Report.ОтгрузкиЗаПериод</reports>
+  <reports>Report.ТоварыБезОтгрузокПодзапрос</reports>
+  <reports>Report.ТоварыБезОтгрузокСоединение</reports>
+  <reports>Report.КурсНаДату</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Отгрузки</accumulationRegisters>
+</mdclass:Configuration>

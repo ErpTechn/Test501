@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e19cf35-b3ee-4973-8b90-bf7fa675f464">
+  <producedTypes>
+    <objectType typeId="1cff8f00-c17c-4abd-94ca-10f8965e73d8" valueTypeId="ba3806aa-c7b0-4c62-8198-d873fe3bfb4b"/>
+    <managerType typeId="3e0eae5a-e5a6-48d4-bf52-26764eeb728b" valueTypeId="821e8dbd-a241-4b2c-8c33-0c9bc04a5957"/>
+  </producedTypes>
+  <name>ТоварыДляПеренумерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары для перенумерации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТоварыДляПеренумерации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1895a74c-d3c5-47d7-b26d-d747c9e8fa5f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
